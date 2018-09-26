@@ -20,6 +20,7 @@
     "hubot-help": "^0.1.1",
     "hubot-postgres-brain": "^0.1.0",
     "hubot-principles": "^1.0.0",
+    "hubot-pugme": "^0.1.1",
     "hubot-redis-brain": "0.0.2",
     "hubot-seen": "^0.2.2",
     "hubot-shortcut": "^1.0.0",
