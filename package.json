@@ -1,11 +1,11 @@
 {
-  "name": "peckbot",
+  "name": "bananabot",
   "version": "0.0.0",
   "private": true,
-  "author": "Jack Serrino <jserrino@gmail.com>",
-  "description": "The slackbot that powers the PKT slack",
+  "author": "Fern Sanchez <jserrino@gmail.com>",
+  "description": "The slackbot that powers the 2.009 yellow slack",
   "scripts": {
-    "start": "node_modules/hubot/bin/hubot -l peckbot"
+    "start": "node_modules/hubot/bin/hubot -l bananabot -a slack"
   },
   "dependencies": {
     "chrono-node": "^1.0.8",
