@@ -17,3 +17,6 @@
 module.exports = (robot) ->
   robot.respond /slackdoc$/i, (res) ->
       res.send "https://docs.google.com/document/d/1kpa4Gye5De8-Q9IFWE6Jtn-OGMbBZaakFLh_6LyZiNM/edit"
+
+  robot.respond /kyberdoc$/i, (res) ->
+      res.send "https://docs.google.com/document/d/1u_fQ3tp-8qPI-d50fGTuXw9nw7ROKys2kfdvKzxUolc/edit?usp=sharing"
