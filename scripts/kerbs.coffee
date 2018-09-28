@@ -1,10 +1,10 @@
 # Description:
-#   Gets the Kerberos of students in 2.009 Slack Team
+#   Gets the user ID of students in 2.009 Slack Team
 #
 # Commands:
-#   hubot initials add <real name> <kerberos> - Adds person to kerberos database.
-#   hubot initials get <real name> - Returns the person data for the given name.
-#   hubot initials get <kerberos> - Returns the person data for the given kerberos.
+#   hubot initials add <display name> <user ID> - Adds person to kerberos database.
+#   hubot initials get <display name> - Returns the person data for the user ID.
+#   hubot initials get <user ID> - Returns the person data for the given display name.
 #
 # Author:
 #   Detry322, fsanchez24899
@@ -60,4 +60,4 @@ module.exports = (robot) ->
     if user? and user['initials']
       sendUser(robot, res, user)
     else
-      res.send "No one with kerberos #{slack_name} exists."
+      res.send "No one with user ID #{slack_name} exists."
